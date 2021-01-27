@@ -1,6 +1,19 @@
+body {
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 .navigation {
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 15px 0;
 }
 
 .navigation-link {
@@ -35,6 +48,159 @@
     cursor: pointer;
 }
 
-.button-icon {
+.button-icon, .button-price {
     margin-right: 10px;
+}
+
+.button-icon:last-child {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.slide {
+    padding: 90px 0 110px 0;
+}
+
+.slide-1 {
+    background: #B4D1E0 url('../img/slide-1.png') no-repeat top right 40%;
+
+}
+
+.label {
+    background-color: #3dc47e;
+    border-radius: 3px;
+
+    color: white;
+
+    padding: 5px 12px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.slide-title {
+    color: #262d33;
+    
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    line-height: 70px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.slide-description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    max-width: 335px;
+    margin-bottom: 40px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%)
+}
+
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    min-height: 370px;
+    border-radius: 10px;
+
+    padding-top: 60px;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 80px;
+}
+
+.card-1 {
+    background: #e3e2e3 url('../img/background-1.png') no-repeat top right;
+    background-size: cover;
+}
+
+.card-2 {
+    background: #e3e2e3 url('../img/background-2.png') no-repeat top right;
+    background-size: cover;
+}
+
+.card-3 {
+    background: #CCD5E6 url('../img/background-3.png') no-repeat top right 10%;
+    background-size: contain;
+    
+    padding-top: 35px;
+}
+
+.card-4 {
+    padding-top: 35px;
+    padding-left: 25px;
+
+    background: #FF4F52 url('../img/background-4.png') no-repeat top right;
+    background-size: contain;
+}
+
+.card-title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #262D33;
+
+    max-width: 222px;
+    margin: 0;
+}
+
+.card-title.large {
+    max-width: 420px;
+    font-size: 40px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    line-height: 40px;
+}
+
+.card-text.large {
+    max-width: 320px;
+}
+
+.card-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #4B5157;
+
+    margin-bottom: 25px;
+    max-width: 176px;
+}
+
+.text-light {
+    color: white;
+}
+
+.card-price {
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    font-weight: 900;
+    font-family: Lato;
 }
