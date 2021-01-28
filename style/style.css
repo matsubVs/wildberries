@@ -296,3 +296,47 @@ body {
     font-weight: 900;
     line-height: 20px;
 }
+
+.footer-text {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #E7D9FF;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.right-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #E7D9FF;
+}
+
+.footer-line {
+    opacity: 0.5;
+    color: #D8BFFF;
+    height: 1px;
+    mix-blend-mode: normal;
+}
+
+.top-link {
+    text-decoration: none;
+    color: white;
+}
+
+.top-link-text {
+    margin-right: 15px;
+}
+
+.payment-logo {
+    vertical-align: middle;
+    margin-right: 25px;
+}
