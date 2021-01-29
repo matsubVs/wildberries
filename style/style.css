@@ -59,12 +59,22 @@ body {
 
 .slide {
     padding: 90px 0 110px 0;
+    min-height: 568px;
 }
 
 .slide-1 {
     background: #B4D1E0 url('../img/slide-1.png') no-repeat top right 40%;
-
 }
+
+.slide-2 {
+    background: #FF4F52 url('../img/slide-1.png') no-repeat top right 40%;
+}
+
+
+.slide-3 {
+    background: #E7D9FF url('../img/slide-1.png') no-repeat top right 40%;
+}
+
 
 .label {
     background-color: #3dc47e;
@@ -109,7 +119,8 @@ body {
     position: absolute;
     top: 50%;
     width: 100%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    z-index: 10;
 }
 
 .slider-button {

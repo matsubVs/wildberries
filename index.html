@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 <body>
@@ -23,16 +24,16 @@
                 <nav>
                     <ul class="navigation d-flex justify-content-between">
                         <li class="navigation-item">
-                            <a href="" class="navigation-link">Womens</a>
+                            <a href="" class="navigation-link">Women's</a>
                         </li>
                         <li class="navigation-item">
-                            <a href="" class="navigation-link">Mens</a>
+                            <a href="" class="navigation-link">Men's</a>
                         </li>
                         <li class="navigation-item">
                             <a href="" class="navigation-link">Goods</a>
                         </li>
                         <li class="navigation-item">
-                            <a href="" class="navigation-link">Accesories</a>
+                            <a href="" class="navigation-link">Accessories</a>
                         </li>
                         <li class="navigation-item">
                             <a href="" class="navigation-link">Blogs</a>
@@ -51,33 +52,65 @@
         </div>
         <!-- /.row -->
     </header>
-    <div class="slider">
-        <section class="slide slide-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 offset-lg-1">
-                        <span class="label">Bestseller</span>
-                        <h2 class="slide-title">Sweater Choker Neck </h2>
-                        <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
-                        <button class="button">
-                            <span class="button-price">399$</span>
-                            <span class="button-text">Shop now</span>
-                        </button>
+    <div class="slider swiper-container">
+        <div class="swiper-wrapper">
+            <section class="slide slide-1 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">Bestseller</span>
+                            <h2 class="slide-title">Sweater Choker Neck </h2>
+                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                            <button class="button">
+                                <span class="button-price">399$</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="slide slide-2 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">Bestseller</span>
+                            <h2 class="slide-title">Sweater Choker Neck </h2>
+                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                            <button class="button">
+                                <span class="button-price">399$</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slide slide-3 swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 offset-lg-1">
+                            <span class="label">Bestseller</span>
+                            <h2 class="slide-title">Sweater Choker Neck </h2>
+                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+                            <button class="button">
+                                <span class="button-price">399$</span>
+                                <span class="button-text">Shop now</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <div class="slider-nav">
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-1">
-                        <button class="slider-button arrow-left">
-                            <img src="/img/Arrow-1.png" alt="">
+                        <button class="slider-button arrow-left slider-button-prev">
+                            <img src="./img/Arrow-1.png" alt="">
                         </button>
                     </div>
                     <div class="col-1">
-                        <button class="slider-button arrow-right">
-                            <img src="/img/Arrow.png" alt="">
+                        <button class="slider-button arrow-right slider-button-next">
+                            <img src="./img/Arrow.png" alt="">
                         </button>
                     </div>
                 </div>
@@ -268,5 +301,7 @@
             </div>
         </div>
     </footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="iondex.js"></script>
 </body>
 </html>
